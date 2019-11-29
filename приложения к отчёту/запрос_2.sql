@@ -1,0 +1,1 @@
+SELECT * FROM [Расписание спектаклей] WHERE [Дата начала спектакля] BETWEEN GETDATE() AND DATEADD(DAY,7,GETDATE())
